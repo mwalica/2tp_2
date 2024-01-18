@@ -65,7 +65,6 @@ mysqli_close($conn);
                         <td>
                             <a class="btn" href="detail.php?id=<?php echo $phone['id']; ?>">Szczegóły</a>
                             <a class="btn" href="delete.php?id=<?php echo $phone['id']; ?>">Usuń</a>
-                            <a class="btn" href="edit.php?id=<?php echo $phone['id']; ?>">Edycja</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>
